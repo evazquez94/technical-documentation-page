@@ -1,3 +1,3 @@
 # technical-documentation-page
 
-freeCodeCamp project responsive web design
+Technical documentation page
