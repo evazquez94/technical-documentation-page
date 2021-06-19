@@ -72,3 +72,19 @@ code, pre {
   background-color: lightgray;
   padding: 10px;  
 }
+
+@media (max-width: 780px) {  
+  #navbar {
+    /* display: block; */    
+    height: 250px;
+    overflow-y: auto;  
+    border-right: 2px solid black;
+    width: 100%;
+    
+  }
+
+  #main-doc {
+    margin-left: 30px;
+  }
+
+}
