@@ -53,6 +53,7 @@ nav header {
 .main-section p{
   text-align: justify;
   margin-bottom: 10px;
+  font-size: large;
 }
 
 section ul {
@@ -63,11 +64,11 @@ li {
   padding: 7px;
 }
 
-code {
+code, pre {
   background-color: lightgray;
 }
 
 .code {
   background-color: lightgray;
-  padding: 10px;
+  padding: 10px;  
 }

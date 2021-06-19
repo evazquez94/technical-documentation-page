@@ -17,8 +17,8 @@
       
       <a href="" class="nav-link">Introduction</a>
       <a href="" class="nav-link">Hello World</a>
+      <a href="" class="nav-link">Programming examples</a>
       <a href="" class="nav-link">Data types</a>
-      <a href="" class="nav-link">Variables</a>
       <a href="" class="nav-link">if...else statement</a>
       <a href="" class="nav-link">Loops</a>      
     </nav>      
@@ -28,8 +28,8 @@
       <section class="main-section">
         <header>Introduction</header>
 
-        <p>Python es un lenguaje de programación interpretado cuya filosofía hace hincapié en la legibilidad de su código. Se trata de un lenguaje de programación multiparadigma, ya que soporta parcialmente la orientación a objetos, programación imperativa y, en menor medida, programación funcional. Es un lenguaje interpretado, dinámico y multiplataforma.</p>
-        <p>Es administrado por la Python Software Foundation. Posee una licencia de código abierto, denominada Python Software Foundation License.</p>
+        <p>Python is an interpreted high-level general-purpose programming language. Python's design philosophy emphasizes code readability with its notable use of significant indentation. Its language constructs as well as its object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects.</p>
+        <p>Python is dynamically-typed and garbage-collected. It supports multiple programming paradigms, including structured (particularly, procedural), object-oriented and functional programming. Python is often described as a "batteries included" language due to its comprehensive standard library.</p>
       </section>
 
       <section class="main-section">
@@ -39,9 +39,33 @@
           <code>print(Hello World)</code>
         </div>
 
-
       </section>
       
+      <section class="main-section">
+        <header>Programming examples</header>
+
+        <p>Program to calculate the factorial of a positive integer:</p>
+
+        <div class="code">
+          <code>
+            n = int(input('Type a number, and its factorial will be printed: '))
+            <br>
+            <br>
+            if n < 0:
+            <br>
+            <pre>    raise ValueError('You must enter a non negative integer')</pre>
+            <br>            
+            factorial = 1
+            <br>
+            for i in range(2, n + 1):
+            <br>
+            <pre>    factorial *= i</pre>
+            <br>            
+            print(factorial)
+          </code>
+        </div>
+      </section>
+
       <section class="main-section">
         <header>Data types</header>
         <ul>
@@ -53,10 +77,6 @@
           <li>Boolean [bool]</li>
           <li>Binary [bytes, bytearray, memoryview]</li>
         </ul>
-      </section>
-
-      <section class="main-section">
-        <header>Variables</header>
       </section>
 
       <section class="main-section">
