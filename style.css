@@ -13,6 +13,12 @@
 
 /* NAVBAR */
 
+nav header {
+  font-size: xx-large;
+  padding: 15px;
+  border-right: 2px solid black;
+}
+
 .nav-link {
   width: 100%;
   display: block;
@@ -22,4 +28,33 @@
   font-size: larger;
   text-decoration: none;
   color: black
+}
+
+/* MAIN DOC */
+
+#main-doc {
+  margin-left: 5rem;
+}
+
+.main-section {
+  margin-top: 30px;
+}
+
+.main-section header {
+  font-size: x-large;
+  margin-bottom: 15px;
+  margin-left: -10px;
+}
+
+section ul {
+  list-style-type: none;
+}
+
+code {
+  background-color: lightgray;
+}
+
+.code {
+  background-color: lightgray;
+  padding: 10px;
 }
