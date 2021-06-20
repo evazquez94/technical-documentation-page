@@ -9,8 +9,7 @@
 
 /* NAVBAR */
 
-#navbar {
-  /* display: block; */
+#navbar {  
   position: fixed;
   height: 100%;  
   border-right: 2px solid black;
@@ -74,16 +73,17 @@ code, pre {
 }
 
 @media (max-width: 780px) {  
-  #navbar {
-    /* display: block; */    
-    height: 250px;
+  #navbar {         
+    height: 200px;
     overflow-y: auto;  
-    border-right: 2px solid black;
-    width: 100%;
-    
+    border-right: none;
+    width: 100%;      
+    z-index: 999;        
   }
 
   #main-doc {
+    position: relative;
+    top: 200px;    
     margin-left: 30px;
   }
 

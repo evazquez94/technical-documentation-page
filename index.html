@@ -52,8 +52,8 @@
             <br>
             <br>
             if n < 0:
-            <br>            
-            factorial = 1
+            <br>
+            <pre>    factorial = 1</pre>
             <br>
             for i in range(2, n + 1):
             <br>
@@ -79,10 +79,63 @@
 
       <section class="main-section">
         <header>if...else statement</header>
-      </section>
 
-      <section class="main-section">
-        <header>Loops</header>
+        <p>If statement:</p>
+
+        <div class="code">
+          <code>
+            a = 33
+            <br>
+            b = 200
+            <br>
+            if b > a:
+            <pre>    print("b is greater than a")</pre> 
+          </code>
+        </div>
+
+        <br>
+
+        <p>The elif keyword is pythons way of saying "if the previous conditions were not true, then try this condition".</p>
+        
+        <div class="code">
+          <code>
+            a = 33
+            <br>
+            b = 33
+            <br>
+            if b > a:
+            <br>
+            <pre>    print("b is greater than a")</pre>            
+            elif a == b:
+            <br>
+            <pre>    print("a and b are equal")</pre>
+          </code>
+        </div>
+
+        <br>
+
+        <p>In this example a is equal to b, so the first condition is not true, but the elif condition is true, so we print to screen that "a and b are equal".</p>
+
+        <br>
+
+        <p>The else keyword catches anything which isn't caught by the preceding conditions.</p>
+
+        <div class="code">
+          <code>
+            a = 200
+            <br>
+            b = 33
+            <br>
+            if b > a:
+            <pre>    print("b is greater than a")</pre>            
+            elif a == b:
+            <br>
+            <pre>    print("a and b are equal")</pre>
+            else:
+            <br>
+            <pre>    print("a is greater than b")  </pre>
+          </code>
+        </div>
       </section>
 
     </div>
