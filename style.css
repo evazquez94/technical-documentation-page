@@ -74,7 +74,7 @@ code, pre {
 }
 
 @media (max-width: 780px) {  
-  #navbar {         
+  #navbar {     
     height: 200px;
     overflow-y: auto;  
     border-right: none;
@@ -83,8 +83,9 @@ code, pre {
   }
 
   #main-doc {
-    position: relative;
+    position: absolute;
     top: 200px;    
+    display: block;
     margin-left: 30px;
   }
 
